@@ -7,8 +7,79 @@
   <title>Zadanie</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/Style.css">
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/countdown.js"></script>
 </head>
 <body>
+  <section class="home" id="home">
+    <div class="logo-color"></div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="countdown-timer">
+      <div><p>ICO starts in:</p></div>
+      <div class="timer-area">
+        <ul id="countdown">
+          <li> <span class="days">00</span>
+            <p class="timeRefDays"></p>
+          </li>
+          <li> <span class="hours">00</span>
+            <p class="timeRefHours"></p>
+          </li>
+          <li> <span class="minutes">00</span>
+            <p class="timeRefMinutes"></p>
+          </li>
+          <li> <span class="seconds">00</span>
+            <p class="timeRefSeconds"></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div><h1>In Hac habitasse platea dolor dictumst lorem ipsum.</h1></div>
 
+    <div class="video"></div>
+
+    <div class="subscribe">
+      <form action="idex.html">
+        <input class="subscribe-input" type="email" name="email" placeholder="Enter your email">
+        <button class="subscribe-submit" type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="social-media">
+      <p>Our Social media</p>
+      <div>
+        <a href="#" class="twitter"></a>
+        <a href="#" class="facebook"></a>
+        <a href="#" class="medium"></a>
+        <a href="#" class="github"></a>
+        <a href="#" class="telegram"></a>
+      </div>
+    </div>
+  </section>
+  <section class="team" id="team">
+    <div class="uppercase nav-text"><p>team</p></div>
+    <div class="card1"></div>
+    <div class="card2"></div>
+    <div class="card3"></div>
+    <div class="card4"></div>
+  </section>
+  <footer class="contact" id="contact">
+    <div class="logo-white"></div>
+    <a href="#">
+      <button class="subscribe-button">Read Whitepaper</button>
+    </a>
+    <p>Contact us:</p>
+    <a href="mailto:have@nicecoding.io">have@nicecoding.io</a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quo aspernatur assumenda.</p>
+    <div class="breadcrumbs">
+    <a href="#">© Copywriters 2017</a>
+    <a href="#">FAQ</a>
+    <a href="#">Term of Use</a>
+    <a href="#">Privacy Policy</a></div>
+  </footer>
 </body>
 </html>

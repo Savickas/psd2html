@@ -1,0 +1,21 @@
+.text-white            { color: #FFF; }
+.nav-text              { color: #3947b4; }
+.accent-color          { background: #3947b4; }
+.primary-text-color    { color: #717c89; }
+.secondary-text-color    { color: #919aa5; }
+.tertiary-text-color  { color: #38a6db; }
+.divider-color         { background-color: #38a6db; }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* countdown */
+.timer-area li {
+  display: inline-block;
+}
+
+.timer-area li p {
+  display: inline-block;
+}
+/* countdown */
