@@ -38,10 +38,10 @@
 			seconds -= minutes * 60; //update the seconds variable with no. of minutes removed
 
 			//conditional Ss
-			if (days == 1) { thisEl.find(".timeRefDays").text("day"); } else { thisEl.find(".timeRefDays").text("d :"); }
-			if (hours == 1) { thisEl.find(".timeRefHours").text("hour"); } else { thisEl.find(".timeRefHours").text("h :"); }
-			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("minute"); } else { thisEl.find(".timeRefMinutes").text("m :"); }
-			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("second"); } else { thisEl.find(".timeRefSeconds").text("s"); }
+			if (days == 1) { thisEl.find(".timeRefDays").text("d"); } else { thisEl.find(".timeRefDays").text("d"); }
+			if (hours == 1) { thisEl.find(".timeRefHours").text("h"); } else { thisEl.find(".timeRefHours").text("h"); }
+			if (minutes == 1) { thisEl.find(".timeRefMinutes").text("m"); } else { thisEl.find(".timeRefMinutes").text("m"); }
+			if (seconds == 1) { thisEl.find(".timeRefSeconds").text("s"); } else { thisEl.find(".timeRefSeconds").text("s"); }
 
 			//logic for the two_digits ON setting
 			if(settings['format'] == "on") {

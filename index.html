@@ -7,12 +7,12 @@
   <title>Zadanie</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/Style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-latest.js"></script>
   <script src="js/countdown.js"></script>
 </head>
 <body>
-  <section class="home" id="home">
-    <div class="logo-color"></div>
+    <a href="index.html"><div class="logo-dark"></div></a>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -20,66 +20,118 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <div class="countdown-timer">
-      <div><p>ICO starts in:</p></div>
-      <div class="timer-area">
-        <ul id="countdown">
-          <li> <span class="days">00</span>
-            <p class="timeRefDays"></p>
+    <section class="home" id="home">
+      <div class="wrapper">
+        <div class="countdown-timer">
+          <div class="tertiary-text-color cyan-text"><p>ICO starts in:</p></div>
+          <div class="timer-area">
+            <ul id="countdown">
+              <li> <span class="days">00</span>
+                <p class="timeRefDays"></p>
+              </li>
+              <p class="colon">:</p>
+              <li> <span class="hours">00</span>
+                <p class="timeRefHours"></p>
+              </li>
+              <p class="colon">:</p>
+              <li> <span class="minutes">00</span>
+                <p class="timeRefMinutes"></p>
+              </li>
+              <p class="colon">:</p>
+              <li> <span class="seconds">00</span>
+                <p class="timeRefSeconds"></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-message"><p>In hac habitasse platea dolor dictumst lorem ipsum.</p></div>
+
+        <div class="video"></div>
+
+        <p>Subscribe and get the latest information</p>
+        <div class="subscribe">
+          <form action="idex.html">
+            <input class="subscribe-input" type="email" name="email" placeholder="Enter your email">
+            <button class="subscribe-submit" type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="social-media tertiary-text-color cyan-text">
+          <p>Our Social media</p>
+          <div>
+            <a href="#"><div class="twitter"></div></a>
+            <a href="#"><div class="facebook"></div></a>
+            <a href="#"><div class="medium"></div></a>
+            <a href="#"><div class="github"></div></a>
+            <a href="#"><div class="telegram"></div></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team" id="team">
+      <div class="wrapper">
+        <div class="uppercase nav-text"><p>team</p></div>
+        <div class="card1">
+          <div class="edgar"></div>
+          <h2 class="tertiary-text-color">Edgar Morrison</h2>
+          <p>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner cartridge market. The market today is</p>
+          <div class="socials">
+            <div class="fb"></div>
+            <div class="in"></div>
+          </div>
+        </div>
+        <div class="card2">
+          <div class="mae"></div>
+          <h2 class="tertiary-text-color">Mae Martin</h2>
+          <p>Large businesses require a lot of IT infrastructure and a department to look after it. Small businesses often can't afford to have that sort of</p>
+          <div class="socials">
+            <div class="fb"></div>
+            <div class="in"></div>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="david"></div>
+          <h2 class="tertiary-text-color">David Banks</h2>
+          <p>Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of</p>
+          <div class="socials">
+            <div class="fb"></div>
+            <div class="in"></div>
+          </div>
+        </div>
+        <div class="card4">
+          <div class="frederick"></div>
+          <h2 class="tertiary-text-color">Frederick Parsons</h2>
+          <p>Most people who work in an office environment, buy computer products, or have a computer at home have had the "fun" experience</p>
+          <div class="socials">
+            <div class="fb"></div>
+            <div class="in"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="contact accent-color" id="contact">
+      <div class="wrapper">
+        <a href="index.html"><div class="logo-light"></div></a>
+        <a href="#">
+          <button class="subscribe-button">Read Whitepaper</button>
+        </a>
+        <p>Contact us:</p>
+        <a href="mailto:have@nicecoding.io">have@nicecoding.io</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quo aspernatur assumenda.</p>
+        <ul class="breadcrumbs">
+          <li>
+            <p class="breadcrumbs-text-color">© Copywriters 2017</p>
           </li>
-          <li> <span class="hours">00</span>
-            <p class="timeRefHours"></p>
+          <li>
+            <a href="#" class="breadcrumbs-text-color">FAQ</a>
           </li>
-          <li> <span class="minutes">00</span>
-            <p class="timeRefMinutes"></p>
+          <li>
+            <a href="#" class="breadcrumbs-text-color">Term of Use</a>
           </li>
-          <li> <span class="seconds">00</span>
-            <p class="timeRefSeconds"></p>
+          <li>
+            <a href="#" class="breadcrumbs-text-color">Privacy Policy</a>
           </li>
         </ul>
-      </div>
-    </div>
-    <div><h1>In Hac habitasse platea dolor dictumst lorem ipsum.</h1></div>
-
-    <div class="video"></div>
-
-    <div class="subscribe">
-      <form action="idex.html">
-        <input class="subscribe-input" type="email" name="email" placeholder="Enter your email">
-        <button class="subscribe-submit" type="submit">Subscribe</button>
-      </form>
-    </div>
-    <div class="social-media">
-      <p>Our Social media</p>
-      <div>
-        <a href="#" class="twitter"></a>
-        <a href="#" class="facebook"></a>
-        <a href="#" class="medium"></a>
-        <a href="#" class="github"></a>
-        <a href="#" class="telegram"></a>
-      </div>
-    </div>
-  </section>
-  <section class="team" id="team">
-    <div class="uppercase nav-text"><p>team</p></div>
-    <div class="card1"></div>
-    <div class="card2"></div>
-    <div class="card3"></div>
-    <div class="card4"></div>
-  </section>
-  <footer class="contact" id="contact">
-    <div class="logo-white"></div>
-    <a href="#">
-      <button class="subscribe-button">Read Whitepaper</button>
-    </a>
-    <p>Contact us:</p>
-    <a href="mailto:have@nicecoding.io">have@nicecoding.io</a>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium quo aspernatur assumenda.</p>
-    <div class="breadcrumbs">
-    <a href="#">© Copywriters 2017</a>
-    <a href="#">FAQ</a>
-    <a href="#">Term of Use</a>
-    <a href="#">Privacy Policy</a></div>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>
