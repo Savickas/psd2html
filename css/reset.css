@@ -28,13 +28,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1;
 	color: #fff;
-	background: #fff;
-
-	/* background: #2f3daf; /* Old browsers */ */
-	/* background: -moz-linear-gradient(left, #2f3daf 0%, #263396 100%); /* FF3.6-15 */ */
-	/* background: -webkit-linear-gradient(left, #2f3daf 0%,#263396 100%); /* Chrome10-25,Safari5.1-6 */ */
-	/* background: linear-gradient(to right, #2f3daf 0%,#263396 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ */
-	/* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f3daf', endColorstr='#263396',GradientType=1 ); /* IE6-9 */ */
+	background: linear-gradient(to right, #3947b4 0%,#263396 100%);
 }
 ol, ul {
 	list-style: none;
