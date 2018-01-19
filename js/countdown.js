@@ -90,7 +90,7 @@
 
 $(document).ready(function() {
   $("#countdown").countdown({
-      date: "24 december 2017 12:00:00",
+      date: "20 november 2018 12:00:00",
       format: "on"
     },
 
